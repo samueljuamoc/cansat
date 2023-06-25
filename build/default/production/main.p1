@@ -1,6 +1,6 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"42 ./bmp280_lib.h
-[; ;./bmp280_lib.h: 42: {
+"45 ./bmp280_lib.h
+[; ;./bmp280_lib.h: 45: {
 [s S370 `us 1 `s 1 `s 1 `us 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 `s 1 ]
 [n S370 . dig_T1 dig_T2 dig_T3 dig_P1 dig_P2 dig_P3 dig_P4 dig_P5 dig_P6 dig_P7 dig_P8 dig_P9 ]
 [p mainexit ]
@@ -59,59 +59,59 @@ Version 4.0 HI-TECH Software Intermediate Code
 "12 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\builtins.h
 [v __delay `JF192 ~T0 @X0 0 e ]
 [p i __delay ]
-"1 ./usart_lib.h
-[; ;./usart_lib.h: 1: void USART_Init(long BAUD);
+"4 ./usart_lib.h
+[; ;./usart_lib.h: 4: void USART_Init(long BAUD);
 [v _USART_Init `(v ~T0 @X0 0 ef1`l ]
-"6 ./i2c_lib.h
-[; ;./i2c_lib.h: 6: void I2C_master_init(void);
+"9 ./i2c_lib.h
+[; ;./i2c_lib.h: 9: void I2C_master_init(void);
 [v _I2C_master_init `(v ~T0 @X0 0 ef ]
-"1 ./ina219_lib.h
-[; ;./ina219_lib.h: 1: void ina219Init(void);
+"4 ./ina219_lib.h
+[; ;./ina219_lib.h: 4: void ina219Init(void);
 [v _ina219Init `(v ~T0 @X0 0 ef ]
-"62 ./bmp280_lib.h
-[; ;./bmp280_lib.h: 62: _Bool BMP280_begin(uint8_t mode,uint8_t T_sampling,uint8_t P_sampling,uint8_t filter,uint8_t standby);
+"65 ./bmp280_lib.h
+[; ;./bmp280_lib.h: 65: _Bool BMP280_begin(uint8_t mode,uint8_t T_sampling,uint8_t P_sampling,uint8_t filter,uint8_t standby);
 [v _BMP280_begin `(a ~T0 @X0 0 ef5`uc`uc`uc`uc`uc ]
 "105 C:\Program Files\Microchip\xc8\v2.36\pic\include\c99\stdio.h
 [; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\c99\stdio.h: 105: int printf(const char *restrict, ...);
 [v _printf `(i ~T0 @X0 0 ev`*Cuc ]
-"1 ./intext_lib.h
-[; ;./intext_lib.h: 1: void int_ext_enable(void);
+"4 ./intext_lib.h
+[; ;./intext_lib.h: 4: void int_ext_enable(void);
 [v _int_ext_enable `(v ~T0 @X0 0 ef ]
-"30 ./lcd_lib.h
-[; ;./lcd_lib.h: 30: void LCD_Begin(uint8_t _i2c_addr);
+"33 ./lcd_lib.h
+[; ;./lcd_lib.h: 33: void LCD_Begin(uint8_t _i2c_addr);
 [v _LCD_Begin `(v ~T0 @X0 0 ef1`uc ]
-"27
-[; ;./lcd_lib.h: 27: void LCD_Goto(uint8_t col, uint8_t row);
+"30
+[; ;./lcd_lib.h: 30: void LCD_Goto(uint8_t col, uint8_t row);
 [v _LCD_Goto `(v ~T0 @X0 0 ef2`uc`uc ]
-"29
-[; ;./lcd_lib.h: 29: void LCD_Print(char* LCD_Str);
+"32
+[; ;./lcd_lib.h: 32: void LCD_Print(char* LCD_Str);
 [v _LCD_Print `(v ~T0 @X0 0 ef1`*uc ]
-"4 ./usart_lib.h
-[; ;./usart_lib.h: 4: void UART_Print(char *data);
+"7 ./usart_lib.h
+[; ;./usart_lib.h: 7: void UART_Print(char *data);
 [v _UART_Print `(v ~T0 @X0 0 ef1`*uc ]
-"6 ./ina219_lib.h
-[; ;./ina219_lib.h: 6: float ina219GetBusVoltage_V(void);
+"9 ./ina219_lib.h
+[; ;./ina219_lib.h: 9: float ina219GetBusVoltage_V(void);
 [v _ina219GetBusVoltage_V `(f ~T0 @X0 0 ef ]
-"8
-[; ;./ina219_lib.h: 8: float ina219GetCurrent_mA(void);
+"11
+[; ;./ina219_lib.h: 11: float ina219GetCurrent_mA(void);
 [v _ina219GetCurrent_mA `(f ~T0 @X0 0 ef ]
-"9
-[; ;./ina219_lib.h: 9: float ina219GetPower_mW();
+"12
+[; ;./ina219_lib.h: 12: float ina219GetPower_mW();
 [v _ina219GetPower_mW `(f ~T0 @X0 0 e? ]
-"66 ./bmp280_lib.h
-[; ;./bmp280_lib.h: 66: _Bool BMP280_readTemperature(int32_t *temp);
+"69 ./bmp280_lib.h
+[; ;./bmp280_lib.h: 69: _Bool BMP280_readTemperature(int32_t *temp);
 [v _BMP280_readTemperature `(a ~T0 @X0 0 ef1`*l ]
-"67
-[; ;./bmp280_lib.h: 67: _Bool BMP280_readPressure(uint32_t *pres);
+"70
+[; ;./bmp280_lib.h: 70: _Bool BMP280_readPressure(uint32_t *pres);
 [v _BMP280_readPressure `(a ~T0 @X0 0 ef1`*ul ]
-"8 ./dht11_lib.h
-[; ;./dht11_lib.h: 8: void dht11_check_humidity(char *ptr_h);
+"11 ./dht11_lib.h
+[; ;./dht11_lib.h: 11: void dht11_check_humidity(char *ptr_h);
 [v _dht11_check_humidity `(v ~T0 @X0 0 ef1`*uc ]
-"2 ./gps_lib.h
-[; ;./gps_lib.h: 2: __bit GPSRead_rmc( uint8_t *time, uint8_t *date,uint8_t *buffer,uint8_t *lat,
+"4 ./gps_lib.h
+[; ;./gps_lib.h: 4: __bit GPSRead_rmc( uint8_t *time, uint8_t *date,uint8_t *buffer,uint8_t *lat,
 [v _GPSRead_rmc `(b ~T0 @X0 0 ef8`*uc`*uc`*uc`*uc`*uc`*uc`*uc`*uc ]
-"5
-[; ;./gps_lib.h: 5: __bit GPSRead_gga(uint8_t *alt,uint8_t *satel,uint8_t *buffer,uint8_t *stream);
+"7
+[; ;./gps_lib.h: 7: __bit GPSRead_gga(uint8_t *alt,uint8_t *satel,uint8_t *buffer,uint8_t *stream);
 [v _GPSRead_gga `(b ~T0 @X0 0 ef4`*uc`*uc`*uc`*uc ]
 "27 C:\Program Files\Microchip\xc8\v2.36\pic\include\c99\string.h
 [; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\c99\string.h: 27: void *memcpy (void *restrict, const void *restrict, size_t);
@@ -646,84 +646,84 @@ Version 4.0 HI-TECH Software Intermediate Code
 "8894
 [; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4550.h: 8894: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"10 ./config.h
+"18 ./config.h
 [p x PLLDIV  =  1        ]
-"11
+"19
 [p x CPUDIV  =  OSC1_PLL2 ]
-"12
-[p x USBDIV  =  1        ]
-"15
-[p x FOSC  =  HS         ]
-"16
-[p x FCMEN  =  OFF       ]
-"17
-[p x IESO  =  OFF        ]
 "20
-[p x PWRT  =  ON         ]
-"21
-[p x BOR  =  ON          ]
-"22
-[p x BORV  =  3          ]
+[p x USBDIV  =  1        ]
 "23
-[p x VREGEN  =  OFF      ]
-"26
-[p x WDT  =  OFF         ]
-"27
-[p x WDTPS  =  32768     ]
+[p x FOSC  =  HS         ]
+"24
+[p x FCMEN  =  OFF       ]
+"25
+[p x IESO  =  OFF        ]
+"28
+[p x PWRT  =  ON         ]
+"29
+[p x BOR  =  ON          ]
 "30
-[p x CCP2MX  =  ON       ]
+[p x BORV  =  3          ]
 "31
-[p x PBADEN  =  OFF      ]
-"32
-[p x LPT1OSC  =  OFF     ]
-"33
-[p x MCLRE  =  OFF        ]
-"36
-[p x STVREN  =  ON       ]
-"37
-[p x LVP  =  OFF         ]
+[p x VREGEN  =  OFF      ]
+"34
+[p x WDT  =  OFF         ]
+"35
+[p x WDTPS  =  32768     ]
 "38
-[p x ICPRT  =  OFF       ]
+[p x CCP2MX  =  ON       ]
 "39
-[p x XINST  =  OFF       ]
-"42
-[p x CP0  =  OFF         ]
-"43
-[p x CP1  =  OFF         ]
+[p x PBADEN  =  OFF      ]
+"40
+[p x LPT1OSC  =  OFF     ]
+"41
+[p x MCLRE  =  OFF        ]
 "44
-[p x CP2  =  OFF         ]
+[p x STVREN  =  ON       ]
 "45
-[p x CP3  =  OFF         ]
-"48
-[p x CPB  =  OFF         ]
-"49
-[p x CPD  =  OFF         ]
+[p x LVP  =  OFF         ]
+"46
+[p x ICPRT  =  OFF       ]
+"47
+[p x XINST  =  OFF       ]
+"50
+[p x CP0  =  OFF         ]
+"51
+[p x CP1  =  OFF         ]
 "52
-[p x WRT0  =  OFF        ]
+[p x CP2  =  OFF         ]
 "53
-[p x WRT1  =  OFF        ]
-"54
-[p x WRT2  =  OFF        ]
-"55
-[p x WRT3  =  OFF        ]
-"58
-[p x WRTC  =  OFF        ]
-"59
-[p x WRTB  =  OFF        ]
+[p x CP3  =  OFF         ]
+"56
+[p x CPB  =  OFF         ]
+"57
+[p x CPD  =  OFF         ]
 "60
-[p x WRTD  =  OFF        ]
+[p x WRT0  =  OFF        ]
+"61
+[p x WRT1  =  OFF        ]
+"62
+[p x WRT2  =  OFF        ]
 "63
-[p x EBTR0  =  OFF       ]
-"64
-[p x EBTR1  =  OFF       ]
-"65
-[p x EBTR2  =  OFF       ]
+[p x WRT3  =  OFF        ]
 "66
+[p x WRTC  =  OFF        ]
+"67
+[p x WRTB  =  OFF        ]
+"68
+[p x WRTD  =  OFF        ]
+"71
+[p x EBTR0  =  OFF       ]
+"72
+[p x EBTR1  =  OFF       ]
+"73
+[p x EBTR2  =  OFF       ]
+"74
 [p x EBTR3  =  OFF       ]
-"69
+"77
 [p x EBTRB  =  OFF       ]
-"56 ./bmp280_lib.h
-[; ;./bmp280_lib.h: 56: } BMP280_calib;
+"59 ./bmp280_lib.h
+[; ;./bmp280_lib.h: 59: } BMP280_calib;
 [v _BMP280_calib `S370 ~T0 @X0 1 e ]
 "4 main.c
 [; ;main.c: 4: uint8_t i;
@@ -1490,8 +1490,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 263: }
 [e :UE 408 ]
 }
-[p f _printf 9248768 ]
 [p f _sprintf 9248768 ]
+[p f _printf 9248768 ]
 [a 1C 67 111 110 110 101 99 116 105 111 110 32 101 114 114 111 114 0 ]
 [a 34C 67 111 117 114 115 101 58 0 ]
 [a 10C 80 114 101 115 105 111 110 65 116 109 40 104 80 97 41 58 0 ]

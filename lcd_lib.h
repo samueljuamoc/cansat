@@ -1,3 +1,6 @@
+#ifndef LCD_LIB_H
+#define LCD_LIB_H
+
 #define LCD_FIRST_ROW          0x80
 #define LCD_SECOND_ROW         0xC0
 #define LCD_THIRD_ROW          0x94
@@ -30,3 +33,5 @@ void LCD_Print(char* LCD_Str);
 void LCD_Begin(uint8_t _i2c_addr);
 void Backlight(void);
 void noBacklight(void);
+
+#endif

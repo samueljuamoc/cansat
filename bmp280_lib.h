@@ -1,3 +1,6 @@
+#ifndef BMP280_LIB_H
+#define BMP280_LIB_H
+
 #ifndef BMP280_I2C_ADDRESS
   #define BMP280_I2C_ADDRESS  0xEC
 #endif
@@ -65,3 +68,5 @@ void BMP280_Update();
 
 bool BMP280_readTemperature(int32_t *temp);
 bool BMP280_readPressure(uint32_t *pres);
+
+#endif

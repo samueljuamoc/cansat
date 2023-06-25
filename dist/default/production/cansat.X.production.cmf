@@ -105,7 +105,7 @@ dataBANK1 BANK1 1 1A9 1A9 1C 1 1
 bssCOMRAM COMRAM 1 5E 5E 1 1 1
 mediumconst MEDIUMCONST 0 7CE4 7CE4 31C 1 2
 config CONFIG 4 300000 300000 E 1 1
-$C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+$C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 idloc IDLOC 5 200000 200000 8 1 1
 init CODE 0 E E 4 1 2
 reset_vec CODE 0 0 0 4 1 2
@@ -150,7 +150,7 @@ MEDIUMCONST 5979-7CE3 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\cansat.X.production.o
-8 intcode CODE >25407:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
+8 intcode CODE >25407:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
 8 intcode CODE >260:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
 596A intcode_body CODE >260:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
 596C intcode_body CODE >261:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
@@ -1566,59 +1566,59 @@ C0A text0 CODE >247:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.
 C16 text0 CODE >249:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
 C1C text0 CODE >253:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
 C28 text0 CODE >254:C:\Users\strud\Documents\MPLAB\Local_Projects\cansat.X\main.c
-5088 cinit CODE >4476:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5088 cinit CODE >4478:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5088 cinit CODE >4481:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5088 cinit CODE >4674:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-508A cinit CODE >4675:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-508C cinit CODE >4676:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-508E cinit CODE >4677:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5090 cinit CODE >4678:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5092 cinit CODE >4679:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5094 cinit CODE >4680:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-5098 cinit CODE >4681:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-509C cinit CODE >4682:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-509C cinit CODE >4683:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-509E cinit CODE >4684:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50A2 cinit CODE >4685:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50A4 cinit CODE >4686:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50A6 cinit CODE >4687:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50A8 cinit CODE >4691:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50AA cinit CODE >4692:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50AC cinit CODE >4693:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50AE cinit CODE >4694:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50B0 cinit CODE >4695:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50B2 cinit CODE >4696:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50B4 cinit CODE >4697:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50B6 cinit CODE >4698:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50BA cinit CODE >4702:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50BE cinit CODE >4703:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50C0 cinit CODE >4704:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50C0 cinit CODE >4705:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50C2 cinit CODE >4706:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50C4 cinit CODE >4707:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50C6 cinit CODE >4710:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50CA cinit CODE >4711:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50CC cinit CODE >4712:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50CC cinit CODE >4713:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50CE cinit CODE >4714:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50D0 cinit CODE >4715:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50D2 cinit CODE >4718:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50D4 cinit CODE >4719:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50D6 cinit CODE >4722:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50DA cinit CODE >4723:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50DC cinit CODE >4724:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50DC cinit CODE >4725:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50DE cinit CODE >4726:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E0 cinit CODE >4727:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E2 cinit CODE >4730:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E4 cinit CODE >4736:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E4 cinit CODE >4738:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E6 cinit CODE >4739:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50E8 cinit CODE >4741:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50EA cinit CODE >4742:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50EC cinit CODE >4743:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
-50EE cinit CODE >4744:C:\Users\strud\AppData\Local\Temp\xcAsac8.s
+5088 cinit CODE >4476:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5088 cinit CODE >4478:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5088 cinit CODE >4481:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5088 cinit CODE >4674:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+508A cinit CODE >4675:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+508C cinit CODE >4676:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+508E cinit CODE >4677:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5090 cinit CODE >4678:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5092 cinit CODE >4679:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5094 cinit CODE >4680:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+5098 cinit CODE >4681:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+509C cinit CODE >4682:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+509C cinit CODE >4683:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+509E cinit CODE >4684:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50A2 cinit CODE >4685:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50A4 cinit CODE >4686:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50A6 cinit CODE >4687:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50A8 cinit CODE >4691:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50AA cinit CODE >4692:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50AC cinit CODE >4693:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50AE cinit CODE >4694:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50B0 cinit CODE >4695:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50B2 cinit CODE >4696:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50B4 cinit CODE >4697:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50B6 cinit CODE >4698:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50BA cinit CODE >4702:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50BE cinit CODE >4703:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50C0 cinit CODE >4704:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50C0 cinit CODE >4705:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50C2 cinit CODE >4706:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50C4 cinit CODE >4707:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50C6 cinit CODE >4710:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50CA cinit CODE >4711:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50CC cinit CODE >4712:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50CC cinit CODE >4713:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50CE cinit CODE >4714:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50D0 cinit CODE >4715:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50D2 cinit CODE >4718:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50D4 cinit CODE >4719:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50D6 cinit CODE >4722:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50DA cinit CODE >4723:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50DC cinit CODE >4724:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50DC cinit CODE >4725:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50DE cinit CODE >4726:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E0 cinit CODE >4727:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E2 cinit CODE >4730:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E4 cinit CODE >4736:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E4 cinit CODE >4738:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E6 cinit CODE >4739:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50E8 cinit CODE >4741:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50EA cinit CODE >4742:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50EC cinit CODE >4743:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
+50EE cinit CODE >4744:C:\Users\strud\AppData\Local\Temp\xcAs2ns.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1653,7 +1653,7 @@ UART_Print@data 2 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.produ
 strncmp@_l 1 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 strncmp@_r 3 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\cansat.X.production.o
-__mediumconst 7CE4 0 MEDIUMCONST 0 mediumconst C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+__mediumconst 7CE4 0 MEDIUMCONST 0 mediumconst C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\cansat.X.production.o
 _int_ext_enable 595A 0 CODE 0 text30 dist/default/production\cansat.X.production.o
 _i2c_addr EB 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
@@ -1668,7 +1668,7 @@ __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\cansat.X.produ
 _CREN 7D5C 0 ABS 0 - dist/default/production\cansat.X.production.o
 _ISR1 8 0 CODE 0 intcode dist/default/production\cansat.X.production.o
 _OERR 7D59 0 ABS 0 - dist/default/production\cansat.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+___sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 _atoi 3AF0 0 CODE 0 text25 dist/default/production\cansat.X.production.o
 _ctoa 48C8 0 CODE 0 text23 dist/default/production\cansat.X.production.o
 _date 19E 0 BANK1 1 bssBANK1 dist/default/production\cansat.X.production.o
@@ -1689,7 +1689,7 @@ BMP280_begin@T_sampling 7 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat
 pad@i 19 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 pad@p 16 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 pad@w 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
-start E 0 CODE 0 init C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+start E 0 CODE 0 init C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 ___flmul@aexp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ___flmul@bexp 21 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ___flmul@prod 22 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
@@ -1731,12 +1731,12 @@ __end_of_BMP280_Update 48C8 0 CODE 0 text60 dist/default/production\cansat.X.pro
 ttemp5 60 0 COMRAM 1 temp dist/default/production\cansat.X.production.o
 ttemp6 63 0 COMRAM 1 temp dist/default/production\cansat.X.production.o
 ttemp7 67 0 COMRAM 1 temp dist/default/production\cansat.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+__accesstop 60 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 __end_of_LCD_Goto 515C 0 CODE 0 text49 dist/default/production\cansat.X.production.o
-intlevel0 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-intlevel1 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-intlevel2 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-intlevel3 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+intlevel0 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+intlevel1 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+intlevel2 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+intlevel3 0 0 CODE 0 text C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 __end_of_start_signal_dht11 5860 0 CODE 0 text40 dist/default/production\cansat.X.production.o
 floorf@e 36 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 floorf@m 32 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
@@ -1763,8 +1763,8 @@ _gps_rmc 7CEB 0 MEDIUMCONST 0 mediumconst dist/default/production\cansat.X.produ
 ___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 _tx_variable D7 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
 ___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 LCD_Cmd@Command 5 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ?_tolower 7 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 _ina219GetCurrent_mA 522C 0 CODE 0 text34 dist/default/production\cansat.X.production.o
@@ -1865,7 +1865,7 @@ __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\cansat.X.product
 _SSPADD FC8 0 ABS 0 - dist/default/production\cansat.X.production.o
 _SSPBUF FC9 0 ABS 0 - dist/default/production\cansat.X.production.o
 __end_of_printf 57D4 0 CODE 0 text2 dist/default/production\cansat.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+isa$xinst 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 _RH_Byte1 FA 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
 _RH_Byte2 F9 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
 fputc@fp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
@@ -1907,7 +1907,7 @@ _ina219GetPower_mW 51C6 0 CODE 0 text33 dist/default/production\cansat.X.product
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\cansat.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\cansat.X.production.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\cansat.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 ___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ___xxtofl@exp A 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ___xxtofl@val 1 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
@@ -2228,14 +2228,14 @@ _strcpy 5358 0 CODE 0 text10 dist/default/production\cansat.X.production.o
 _stream FD 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
 _strlen 56E8 0 CODE 0 text12 dist/default/production\cansat.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\cansat.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+isa$std 1 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 _t_fine CB 0 BANK0 1 bssBANK0 dist/default/production\cansat.X.production.o
 ___fldiv@new_exp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 __end_of_I2C_Rx_data 5948 0 CODE 0 text73 dist/default/production\cansat.X.production.o
 __end_of_I2C_Rx_nack 5932 0 CODE 0 text72 dist/default/production\cansat.X.production.o
 __end_of_LCD_Write_Nibble 5640 0 CODE 0 text52 dist/default/production\cansat.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-stacklo 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+stackhi 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+stacklo 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 _BMP280_readPressure 1858 0 CODE 0 text61 dist/default/production\cansat.X.production.o
 _voltaje 114 0 BANK1 1 bssBANK1 dist/default/production\cansat.X.production.o
 __end_of_dht11_check_humidity 3D8C 0 CODE 0 text39 dist/default/production\cansat.X.production.o
@@ -2387,7 +2387,7 @@ __Ltext71 0 0 ABS 0 text71 dist/default/production\cansat.X.production.o
 __Ltext72 0 0 ABS 0 text72 dist/default/production\cansat.X.production.o
 __Ltext73 0 0 ABS 0 text73 dist/default/production\cansat.X.production.o
 __Ltext74 0 0 ABS 0 text74 dist/default/production\cansat.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 ___aldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 _sprintf 53B4 0 CODE 0 text1 dist/default/production\cansat.X.production.o
 __end_of_BMP280_Read8 5782 0 CODE 0 text67 dist/default/production\cansat.X.production.o
@@ -2416,8 +2416,8 @@ __end_of_gps_gga 7CEB 0 MEDIUMCONST 0 mediumconst dist/default/production\cansat
 __end_of_gps_rmc 7CF1 0 MEDIUMCONST 0 mediumconst dist/default/production\cansat.X.production.o
 __end_of_vfprintf 5358 0 CODE 0 text3 dist/default/production\cansat.X.production.o
 _strncmp 3ED0 0 CODE 0 text5 dist/default/production\cansat.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
-___heap_lo 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAsac8.o
+___heap_hi 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
+___heap_lo 0 0 ABS 0 - C:\Users\strud\AppData\Local\Temp\xcAs2ns.o
 ___fltol@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\cansat.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\cansat.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\cansat.X.production.o

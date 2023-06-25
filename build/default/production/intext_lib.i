@@ -9,9 +9,7 @@
 # 1 "intext_lib.c" 2
 
 # 1 "./config.h" 1
-
-
-
+# 12 "./config.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -5722,7 +5720,7 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 2 3
-# 4 "./config.h" 2
+# 12 "./config.h" 2
 
 
 
@@ -5938,11 +5936,11 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 74 "./config.h" 2
+# 82 "./config.h" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\c99\\stdbool.h" 1 3
-# 76 "./config.h" 2
+# 84 "./config.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\c99\\string.h" 1 3
 # 25 "C:\\Program Files\\Microchip\\xc8\\v2.36\\pic\\include\\c99\\string.h" 3
@@ -5999,17 +5997,23 @@ size_t strxfrm_l (char *restrict, const char *restrict, size_t, locale_t);
 
 
 void *memccpy (void *restrict, const void *restrict, int, size_t);
-# 77 "./config.h" 2
+# 85 "./config.h" 2
 
 
 # 1 "./usart_lib.h" 1
+
+
+
 void USART_Init(long BAUD);
 void putch(uint8_t data);
 uint8_t getch();
 void UART_Print(char *data);
-# 79 "./config.h" 2
+# 87 "./config.h" 2
 
 # 1 "./i2c_lib.h" 1
+
+
+
 
 
 
@@ -6023,9 +6027,12 @@ void I2C_Rx_nack(void);
 void I2C_restart(void);
 void I2C_Tx_data(char data);
 char I2C_Rx_data(void);
-# 80 "./config.h" 2
+# 88 "./config.h" 2
 
 # 1 "./ina219_lib.h" 1
+
+
+
 void ina219Init(void);
 
 void I2C_INA_write(uint8_t registro,uint16_t valor);
@@ -6035,10 +6042,10 @@ float ina219GetBusVoltage_V(void);
 
 float ina219GetCurrent_mA(void);
 float ina219GetPower_mW();
-# 81 "./config.h" 2
+# 89 "./config.h" 2
 
 # 1 "./bmp280_lib.h" 1
-# 41 "./bmp280_lib.h"
+# 44 "./bmp280_lib.h"
 struct
 {
   uint16_t dig_T1;
@@ -6066,9 +6073,12 @@ void BMP280_Update();
 
 _Bool BMP280_readTemperature(int32_t *temp);
 _Bool BMP280_readPressure(uint32_t *pres);
-# 82 "./config.h" 2
+# 90 "./config.h" 2
 
 # 1 "./dht11_lib.h" 1
+
+
+
 
 
 
@@ -6077,18 +6087,20 @@ void start_signal_dht11(void);
 __bit check_response_dht11(void);
 __bit read_data_dht11(unsigned char* dht_data);
 void dht11_check_humidity(char *ptr_h);
-# 83 "./config.h" 2
+# 91 "./config.h" 2
 
 # 1 "./gps_lib.h" 1
+
+
 
 __bit GPSRead_rmc( uint8_t *time, uint8_t *date,uint8_t *buffer,uint8_t *lat,
                     uint8_t *lon,uint8_t *speed,uint8_t *course,uint8_t *stream);
 
 __bit GPSRead_gga(uint8_t *alt,uint8_t *satel,uint8_t *buffer,uint8_t *stream);
-# 84 "./config.h" 2
+# 92 "./config.h" 2
 
 # 1 "./lcd_lib.h" 1
-# 24 "./lcd_lib.h"
+# 27 "./lcd_lib.h"
 void Expander_Write(uint8_t value);
 void LCD_Write_Nibble(uint8_t n);
 void LCD_Cmd(uint8_t Command);
@@ -6098,12 +6110,15 @@ void LCD_Print(char* LCD_Str);
 void LCD_Begin(uint8_t _i2c_addr);
 void Backlight(void);
 void noBacklight(void);
-# 85 "./config.h" 2
+# 93 "./config.h" 2
 
 # 1 "./intext_lib.h" 1
+
+
+
 void int_ext_enable(void);
 void __attribute__((picinterrupt(("")))) INT_isr (__bit *p_bit);
-# 86 "./config.h" 2
+# 94 "./config.h" 2
 # 2 "intext_lib.c" 2
 
 

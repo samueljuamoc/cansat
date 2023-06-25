@@ -1,6 +1,14 @@
 #ifndef XC_HEADER_TEMPLATE_H
 #define	XC_HEADER_TEMPLATE_H
 
+/*
+ * HERE are included all the headers that are needed for
+ * all .c files. This is not recommended though, as all
+ * .c files (excluding main.c) don't need most of the headers in order
+ * to work. This was a bad implementation of headers (I admit),
+ * made due to the lack of knowledge about .h inclusion at the time.
+ */
+
 #include <xc.h>  //18F4550 processor files
 
 // PIC18F4550 Configuration Bit Settings
