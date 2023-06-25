@@ -13,4 +13,4 @@ We have the following libraries:
 - lcd_lib.h : This library allows us to use a HD44780 16x2 LCD through the PCF8574T I2C module, this in order to present the data directly on the satellite when the switch's pressed.
 
 The config.h header helps with the processor files of the PIC18F4550, as well as the Configuration Bits, the constant of the clock and all the inclusion of libraries.
-The main.c is the code of the system; setting configuration bits, taking libraries' functions, defining variables to be used, initializing everything, and looping reading sensors and transmitting data to the SiK telemetry radio and LCD if necessary.
+The main.c is the code of the system: Inclusion of config.h file, defining variables to be used, initializing everything, and looping reading sensors and transmitting data to the SiK telemetry radio and LCD if necessary.
